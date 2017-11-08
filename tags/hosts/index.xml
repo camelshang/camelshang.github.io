@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hosts on Cocoa Enhanced</title>
-    <link>https://example.com/tags/hosts/</link>
-    <description>Recent content in Hosts on Cocoa Enhanced</description>
+    <title>Hosts on Camel Shang</title>
+    <link>/tags/hosts/</link>
+    <description>Recent content in Hosts on Camel Shang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2015 Nishanth Shanmugham</copyright>
+    <copyright>Copyright © 2017 Camel Shang</copyright>
     <lastBuildDate>Wed, 31 Aug 2016 19:24:13 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/hosts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/hosts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>翻墙小结</title>
-      <link>https://example.com/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</link>
+      <link>/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</link>
       <pubDate>Wed, 31 Aug 2016 19:24:13 +0000</pubDate>
       
-      <guid>https://example.com/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</guid>
+      <guid>/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</guid>
       <description>&lt;h1 id=&#34;gfw&#34;&gt;GFW&lt;/h1&gt;
 
 &lt;p&gt;互联网时代，透过你在网络上的痕迹，你看到的，正是你自己。&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>避开百度迎来谷歌</title>
-      <link>https://example.com/blog/%E9%81%BF%E5%BC%80%E7%99%BE%E5%BA%A6%E8%BF%8E%E6%9D%A5%E8%B0%B7%E6%AD%8C/</link>
+      <link>/blog/%E9%81%BF%E5%BC%80%E7%99%BE%E5%BA%A6%E8%BF%8E%E6%9D%A5%E8%B0%B7%E6%AD%8C/</link>
       <pubDate>Tue, 12 Jan 2016 18:06:59 +0000</pubDate>
       
-      <guid>https://example.com/blog/%E9%81%BF%E5%BC%80%E7%99%BE%E5%BA%A6%E8%BF%8E%E6%9D%A5%E8%B0%B7%E6%AD%8C/</guid>
+      <guid>/blog/%E9%81%BF%E5%BC%80%E7%99%BE%E5%BA%A6%E8%BF%8E%E6%9D%A5%E8%B0%B7%E6%AD%8C/</guid>
       <description> 关于百度 百度是一家什么公司，在此就不多加叙述了。仅以鲁迅先生的一句话作结： &amp;gt; 我向来是不惮以最坏的恶意，来推测百度的，然而我还不料，也不信竟会下劣凶残到这地步。
 百度号称作为第一大中文搜索引擎，这两天因卖血友病贴吧吧主而闹得甚嚣尘上。请移步百度贴吧的血友病吧被卖了，原吧主小吧主突然间全部被拿下。如何看待这样的行为？ 以及百度作了哪些恶？。我不禁想起了百度的由来： &amp;gt; 众里寻他千百度，暮然回首，那人却在大把捞钱处。
 推荐霍炬的文章我是如何坚持10多年站在反百度第一线的。

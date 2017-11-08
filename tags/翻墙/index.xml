@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>翻墙 on Cocoa Enhanced</title>
-    <link>https://example.com/tags/%E7%BF%BB%E5%A2%99/</link>
-    <description>Recent content in 翻墙 on Cocoa Enhanced</description>
+    <title>翻墙 on Camel Shang</title>
+    <link>/tags/%E7%BF%BB%E5%A2%99/</link>
+    <description>Recent content in 翻墙 on Camel Shang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2015 Nishanth Shanmugham</copyright>
+    <copyright>Copyright © 2017 Camel Shang</copyright>
     <lastBuildDate>Wed, 31 Aug 2016 19:24:13 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/%E7%BF%BB%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/%E7%BF%BB%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>翻墙小结</title>
-      <link>https://example.com/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</link>
+      <link>/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</link>
       <pubDate>Wed, 31 Aug 2016 19:24:13 +0000</pubDate>
       
-      <guid>https://example.com/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</guid>
+      <guid>/blog/%E7%BF%BB%E5%A2%99%E5%B0%8F%E7%BB%93/</guid>
       <description>&lt;h1 id=&#34;gfw&#34;&gt;GFW&lt;/h1&gt;
 
 &lt;p&gt;互联网时代，透过你在网络上的痕迹，你看到的，正是你自己。&lt;/p&gt;
