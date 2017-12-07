@@ -1174,6 +1174,11 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
                     
                     <div style="width: 100%;"></div>
                     
+                    <div>
+                        <a href="/blog/tracking-notes/">Tracking Notes</a>
+                        <img class="icon" src="/img/next.svg" alt="next" />
+                    </div>
+                    
                 </div>
             
             <br>
@@ -1229,9 +1234,17 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51326133-1"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} });
+</script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
 
   gtag('config', 'UA-51326133-1');
@@ -1246,42 +1259,62 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 </script>
 
 
-  <script src="/js/highlight.min.js" defer></script>
+<script src="/js/highlight.min.js" defer></script>
   
-
-
-
-  <script src="/js/progressively.min.js" defer></script>
-
-
-
-
-
-
-  <script src="/js/social-share-kit.min.js" defer></script>
-
-
-
+<script src="/js/progressively.min.js" defer></script>
+  
+<script src="/js/social-share-kit.min.js" defer></script>
+ 
 
 <script>
-  window.onload = function() {
-    
-      hljs.initHighlighting();
-    
-    
-      progressively.init({delay: 30, throttle: 50});
-    
-    
-      SocialShareKit.init({
-        twitter: {
-            text: '',
-            
+  window.onload = function () {
+    {
+      {
+        if .Site.Params.highlightjs
+      }
+    }
+    hljs.initHighlighting(); {
+      {
+        end
+      }
+    } {
+      {
+        if .Site.Params.progressively
+      }
+    }
+    progressively.init({
+      delay: 30,
+      throttle: 50
+    }); {
+      {
+        end
+      }
+    } {
+      {
+        if .Site.Params.share
+      }
+    }
+    SocialShareKit.init({
+      twitter: {
+        text: '',
+        {
+          {
+            if .Site.Params.twitter
+          }
         }
-      });
-    
+        via: '' {
+          {
+            end
+          }
+        }
+      }
+    }); {
+      {
+        end
+      }
+    }
   };
 </script>
-
 
 </body>
 </html>

@@ -58,6 +58,15 @@
     </item>
     
     <item>
+      <title>Metric Learning</title>
+      <link>/tags/metric-learning/</link>
+      <pubDate>Thu, 07 Dec 2017 14:24:40 +0800</pubDate>
+      
+      <guid>/tags/metric-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>/tags/projects/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -72,6 +81,33 @@
       <pubDate>Sat, 16 Jan 2016 04:27:58 +0000</pubDate>
       
       <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siamese Network</title>
+      <link>/tags/siamese-network/</link>
+      <pubDate>Thu, 07 Dec 2017 14:24:40 +0800</pubDate>
+      
+      <guid>/tags/siamese-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracking</title>
+      <link>/tags/tracking/</link>
+      <pubDate>Thu, 07 Dec 2017 13:53:47 +0800</pubDate>
+      
+      <guid>/tags/tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Triplet Loss</title>
+      <link>/tags/triplet-loss/</link>
+      <pubDate>Thu, 07 Dec 2017 14:24:40 +0800</pubDate>
+      
+      <guid>/tags/triplet-loss/</guid>
       <description></description>
     </item>
     

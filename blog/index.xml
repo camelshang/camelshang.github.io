@@ -7,10 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Camel Shang</copyright>
-    <lastBuildDate>Thu, 01 Sep 2016 20:56:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2017 14:24:40 +0800</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Siamese Notes</title>
+      <link>/blog/siamese-notes/</link>
+      <pubDate>Thu, 07 Dec 2017 14:24:40 +0800</pubDate>
+      
+      <guid>/blog/siamese-notes/</guid>
+      <description>task 通过样本相似度驱动权重共享的网络学习嵌入的隐变量表达(embedding vector representation)
+siamese network Learning a Similarity Metric Discriminatively, with Application to Face Verofocation 假设对于正对 $(X_1, X_2)$和负对$(X_1, X_2^{\prime})$
+$$\exists m&amp;gt;0, E_W(X_1, X_2)+m&amp;lt;E_W(X-1,X_2^\prime).$$
+损失函数
+$$ L(W)=\sum_{i=1}^{P}\ell(W,(Y,X_1,X_2)^{i}) $$ $$ \ell(W,(Y,X_1,X_2)^{i} = (1-Y)\ell_G(E_W(X_1,X_2)^i) + Y\ell_I(E_W(X_1,X_2)^i) $$
+Dimensionality Reduction by Learning an Invariant Mapping 对比损失函数(contrastive loss function)
+$$ \ell(W,Y,X_1,X_2) = (1-Y){1\over2}(D_W)^2 + (Y){1\over2}{max(0,m-D_W)}^2 $$
+triplet loss Learning fine-grained image similarity with deep ranking deep metreic learning using triplet network 假设: 对于选择的粗略相似度度量$r$, 我们希望学习到相似度函数表达 $S$</description>
+    </item>
+    
+    <item>
+      <title>Tracking Notes</title>
+      <link>/blog/tracking-notes/</link>
+      <pubDate>Thu, 07 Dec 2017 13:53:47 +0800</pubDate>
+      
+      <guid>/blog/tracking-notes/</guid>
+      <description>task Given the initialized state (e.g., position and size) of a target object in a frame of a video, the goal of tracking is to estimate the states of the target in the subsequent frames.
+difficulties  illumination variation occlusion background clutters fast motion Out-of-Plane Rotation scale variation  common modules  target representation scheme search mechanism model update context information  evaluation  Precision Plot. Center location error. Success Plot.</description>
+    </item>
     
     <item>
       <title>windows安装caffe并编译fast-rcnn-demo</title>
@@ -100,6 +126,15 @@ ipconfig /flushdns  或linux用户打开终端运行
 最后作结：
  携程事，准拟系统又误。谷歌曾有人妒。千金可卖贴吧主，滔滔恶行谁诉。君莫舞，君不见，玉环飞燕皆尘土。用户最苦。休去用百度，谷歌正在，缓慢回归路。
  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description> GAN 优点  隐式计算生成模型  缺点  训练难度大。无法定性判断模型优劣，易陷入局部极小或者根本无法学到有用信息。 模型坍塌(model collapse)。重复得到一致的输出。  DCGAN 优点  充分利用CNN提取信息的优良特性 image arithmetic。（戴眼镜的男人-不戴眼镜的男人+不戴眼镜的女人=戴眼镜的女人。 控制人脸的朝向） 判别器其实是一个特征提取器  缺点  特征表达是纠缠的（representation is entangled），即隐变量和噪声是纠缠在一起的  </description>
     </item>
     
   </channel>

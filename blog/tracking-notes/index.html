@@ -15,23 +15,23 @@
 <meta property="og:site_name" content="Camel Shang" />
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/projects/mooc/" />
-<meta property="og:title" content="自我驱动终生学" />
-<meta property="twitter:title" content="自我驱动终生学">
+<meta property="og:url" content="/blog/tracking-notes/" />
+<meta property="og:title" content="Tracking Notes" />
+<meta property="twitter:title" content="Tracking Notes">
 
-    <meta property="og:image" content="/img/banner.png">
+    <meta property="og:image" content="//images/image.jpg">
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:image" content="/img/banner.png">
+    <meta property="twitter:image" content="//images/image.jpg">
 
-<meta property="og:description" content="Blah blah blah">
-<meta property="twitter:description" content="Blah blah blah">
+<meta property="og:description" content="tracking overview">
+<meta property="twitter:description" content="tracking overview">
 <title>
 
 
-     Camel Shang - 自我驱动终生学 
+     Camel Shang - Tracking Notes 
 
 </title>
-<link rel="canonical" href="/projects/mooc/">
+<link rel="canonical" href="/blog/tracking-notes/">
 
 
 <style media="screen">
@@ -1052,65 +1052,146 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
     </div>
 </section>
 
-<section class="main">
+
+<section class="main post non-narrow zero-top-spacing">
     <div class="container">
         <div class="content">
-            <div class="page-heading">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
 
-    自我驱动终生学
+    Tracking Notes
 
 </div>
 
+                </div>
+                <div class="meta">
+                    <div class="date" title="Thu Dec 7 2017 13:53:47 CST">Dec 7, 2017</div>
+                    
+                        
+                    
+                    <div class="reading-time"><div class="middot"></div>1 minute read</div>
+                    <div class="tags">
+                        <ul>
+                          
+                            <div class="middot"></div>
+                            <li><a href="/tags/tracking">tracking</a> </li>
+                          
+                        </ul>
+                    </div>
+                    <div class="tags">
+                        <ul>
+                          
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="markdown">
                 
     
     
 
-<h2 id="技术自媒体">技术自媒体</h2>
+<h1 id="task">task</h1>
+
+<p>Given the initialized state (e.g., position and size) of a target object in a frame of a video, the goal
+of tracking is to estimate the states of the target in the subsequent frames.</p>
+
+<h1 id="difficulties">difficulties</h1>
 
 <ul>
-<li><a href="http://macshuo.com/">MacTalk</a></li>
-<li><a href="http://hutu.me/">小道消息</a></li>
-<li><a href="http://www.yinwang.org/">王垠</a></li>
-<li><a href="http://www.matrix67.com/blog/">Matrix67</a></li>
-<li><a href="http://coolshell.cn/">酷壳</a></li>
-<li><a href="http://blog.knownsec.com/Knownsec_RD_Checklist/index.html">研发技能表</a></li>
-<li><a href="http://www.hankcs.com/">码农场</a></li>
+<li>illumination variation</li>
+<li>occlusion</li>
+<li>background clutters</li>
+<li>fast motion</li>
+<li>Out-of-Plane Rotation</li>
+<li>scale variation</li>
 </ul>
 
-<h2 id="机器学习">机器学习</h2>
+<h1 id="common-modules">common modules</h1>
 
 <ul>
-<li><a href="https://www.cs.toronto.edu/~hinton/">Geoffrey E. Hinton</a></li>
-<li><a href="http://yann.lecun.com/">Yann Lecun</a></li>
-<li><a href="http://www.andrewng.org/">Andrew Ng</a></li>
-<li><a href="http://yushiqi.cn/">于仕琪</a></li>
-<li><a href="http://blog.csdn.net/zouxy09/">zouxy09</a></li>
-<li><a href="https://www.52ml.net/">52ml</a></li>
-<li><a href="http://www.tcts.fpms.ac.be/attention/?categorie16/what-and-why">Computational Attention</a></li>
-<li><a href="https://www.cs.toronto.edu/~hinton/nntut.html">Geoffrey Hinton Neural Network Tutorial</a></li>
-<li><a href="http://www.cs.nyu.edu/~yann/courses.html">Yann Lecun Courses</a></li>
-<li><a href="https://drive.google.com/open?id=0BxKBnD5y2M8NclFWSXNxa0JlZTg">Yann LeCun Deep Learning at Collège de France 2016</a></li>
-<li><a href="https://www.coursera.org/learn/machine-learning/home/welcome">Coursera Machine Learning</a></li>
-<li><a href="http://cs229.stanford.edu/">Stanford CS229 Machine learning</a></li>
-<li><a href="http://cs231n.github.io/">Stanford CS231n</a>
+<li>target representation scheme</li>
+<li>search mechanism</li>
+<li>model update</li>
+<li>context information</li>
+</ul>
+
+<h1 id="evaluation">evaluation</h1>
 
 <ul>
-<li><a href="http://cs231n.stanford.edu/syllabus.html">syllabus</a></li>
-<li><a href="http://cs231n.stanford.edu/slides/">slides</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC">videos</a></li>
+<li>Precision Plot. Center location error.</li>
+<li>Success Plot. Bounding box overlap.</li>
+</ul>
+
+<h1 id="papers">papers</h1>
+
+<ul>
+<li>CVPR2013 Online Object Tracking A Benchmark</li>
+<li><a href="http://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf">Object Tracking Benchmark</a></li>
+<li>[CT]()</li>
+
+<li><p>[OAB]()</p></li>
+
+<li><p><a href="http://ieeexplore.ieee.org/document/7360205/">STRUCK</a></p>
+
+<ul>
+<li><a href="https://github.com/samhare/struck">CPU code in C++</a></li>
+<li><a href="https://bitbucket.org/sgolodetz/thunderstruck/src">GPU code</a></li>
 </ul></li>
-<li><a href="http://deeplearning.stanford.edu/tutorial/">UFLDL</a></li>
-<li><a href="https://www.coursera.org/specializations/deep-learning">Coursera Deep Learning</a></li>
-<li><a href="http://www.deeplearningbook.org/">Deep Learning Book</a></li>
-<li><a href="http://incompleteideas.net/sutton/book/the-book-2nd.html">Reinforcement Learning: An Introduction</a></li>
+
+<li><p>[TLD]()</p></li>
+
+<li><p><a href="http://www.robots.ox.ac.uk/~joao/publications/henriques_eccv2012.pdf">CSK</a></p>
+
+<ul>
+<li><a href="http://www.robots.ox.ac.uk/~joao/circulant/v">project</a></li>
+</ul></li>
+
+<li><p><a href="http://www.robots.ox.ac.uk/~joao/publications/henriques_tpami2015.pdf">KCF</a></p>
+
+<ul>
+<li><a href="http://www.robots.ox.ac.uk/~joao/circulant/v">project</a></li>
+</ul></li>
 </ul>
 
 
+                <br>
             </div>
+            
+            <div class="share">
+                <a href="" class="ssk ssk-facebook"></a>
+                <a href="" class="ssk ssk-twitter"></a>
+                <a href="" class="ssk ssk-google-plus"></a>
+                <a href="" class="ssk ssk-linkedin"></a>
+            </div>
+            
+            
+                <div class="navigation">
+                    
+                    <div>
+                        <img class="icon" src="/img/back.svg" alt="back" />
+                        <a href="/blog/windows%E5%AE%89%E8%A3%85caffe%E5%B9%B6%E7%BC%96%E8%AF%91fast-rcnn-demo/">windows安装caffe并编译fast-rcnn-demo</a>
+                    </div>
+                    
+                    <div style="width: 100%;"></div>
+                    
+                    <div>
+                        <a href="/blog/siamese-notes/">Siamese Notes</a>
+                        <img class="icon" src="/img/next.svg" alt="next" />
+                    </div>
+                    
+                </div>
+            
+            <br>
+            <div class="disqus">
+                
+            </div>
+            
         </div>
     </div>
 </section>
+
 <section class="footer">
     <div class="container">
 
