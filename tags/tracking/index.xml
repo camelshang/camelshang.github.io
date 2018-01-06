@@ -19,7 +19,7 @@
       
       <guid>/blog/tracking-notes/</guid>
       <description>task Given the initialized state (e.g., position and size) of a target object in a frame of a video, the goal of tracking is to estimate the states of the target in the subsequent frames.
-difficulties  illumination variation occlusion background clutters fast motion Out-of-Plane Rotation scale variation  common modules  target representation scheme search mechanism model update context information  evaluation  Precision Plot. Center location error. Success Plot.</description>
+difficulties  illumination variation occlusion background clutters fast motion out-of-Plane Rotation scale variation  common modules  target representation scheme search mechanism model update context information  evaluation  Precision Plot. Center location error Success Plot.</description>
     </item>
     
   </channel>
