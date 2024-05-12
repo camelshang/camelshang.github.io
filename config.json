@@ -4,5 +4,6 @@
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "GMEEK_VERSION":"last",
     "showPostSource":0,
-    "singlePage":["about"]
+    "singlePage":["about"],
+    "urlMode":"issue"
 }
