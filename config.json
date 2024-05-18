@@ -5,5 +5,7 @@
     "GMEEK_VERSION":"last",
     "showPostSource":0,
     "singlePage":["about"],
-    "urlMode":"issue"
+    "urlMode":"issue",
+    "startSite":"02/16/2015",
+    "script":"<!--Google tag(gtag.js)--><script async src='https://www.googletagmanager.com/gtag/js?id=G-EYN14YJQYP'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-EYN14YJQYP');</script>"
 }
