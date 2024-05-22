@@ -74,13 +74,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>针对问题一：首先内心给予自己心理暗示，需要利用notes或flomo等文本记录工具，将日常的阅读、播客、论文、感想等个人输出相关的内容随时记录，并在周末的时候做好整理与总结。</li>
 <li>针对问题二：经过一番调研，决定采用<a href="https://github.com/Meekdai/Gmeek">Gmeek</a>的模版框架，将issues作为文章发布的窗口并利用actions进行一站式发布。</li>
 </ul>
-<p>再使用Gmeek的过程中，结合个人需求进行了定制<a href="https://github.com/camelshang/Gmeek">camelshang/Gmeek</a>，相比原框架的主要修改为</p>
+<p>在使用Gmeek的过程中，结合个人需求进行了定制<a href="https://github.com/camelshang/Gmeek">camelshang/Gmeek</a>，相比原框架的主要修改为：</p>
 <ul>
 <li>原框架利用<a href="https://github.com/lxneng/xpinyin">xpinyin</a>将issue标题转换为拼音，会出现将“重新”转化为“zhong-xin”等简单错误，因此改为基于<a href="https://github.com/mozillazg/python-pinyin">pypinyin</a>的转化</li>
 <li>原框架未能较好支持google网站收录以及分析的验证，增加了相关参数和配置</li>
 <li>原框架修改footer不是很灵活，增加了参数并配置了<a href="https://www.bing.com/search?q=busuanzi&amp;qs=n&amp;form=QBRE&amp;=%25eManage%20Your%20Search%20History%25E&amp;sp=-1&amp;lq=0&amp;pq=busuanzi&amp;sc=10-8&amp;sk=&amp;cvid=A2400E00E5F04FF2BDA87CCC5ACCF61E&amp;ghsh=0&amp;ghacc=0&amp;ghpl=" rel="nofollow">busuanzi</a></li>
 </ul>
-<p>和我有类似需求的朋友，可以参考<a href="https://github.com/camelshang/Gmeek">camelshang/Gmeek</a>在config.py里对google-site-verification、search_script、footer_script进行配置。至此，个人需求基本被满足。</p></div>
+<p>和我有类似需求的朋友，可以参考<a href="https://github.com/camelshang/Gmeek">camelshang/Gmeek</a>在config.py里对google-site-verification、search_script、footer_script进行配置。至此，个人需求基本被满足。</p>
+<p>接下来，只需要坚持记录即可。期待看到10-&gt;20-&gt;50-&gt;100篇文章的达成👏。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
