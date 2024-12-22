@@ -8,7 +8,7 @@ ESIM本质上就是大家常用的实体SIM卡，只不过非实体而是电子�
 
 ## 准备工作
 - 建议购买[ESTK官网](www.estk.me)的[estkme-eco](https://www.estk.me/product/estkme-eco/)，相比5ber的优点是开源，且支持在iPhone设备上写新的ESIM卡
-- ESTK首次安装（需要安卓设备）：首次在iPhone上使用，需要先用上面estkme-eco邮寄过来的sim卡装在支持omapi的安卓设备，然后下载包含流量的ESIM卡（比如首次注册就送500M的eskimo）
+- ESTK首次安装（需要安卓设备）：首次在iPhone上使用，需要先用上面estkme-eco邮寄过来的sim卡装在支持omapi的安卓设备，然后下载包含流量的ESIM卡（比如通过邀请码CS45368首次注册就送500M的eskimo）
 - ESTK下载新的ESIM（可在iPhone设备完成）：完成上一步后，ESTK卡中就有了一张包含流量的ESIM卡。此时即可将ESTK卡取下安装在iPhone设备上，未来所有操作均可在iPhone设备上完成。
 
 ## 购买ESIM
